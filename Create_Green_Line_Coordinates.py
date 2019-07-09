@@ -48,7 +48,7 @@ animation = Tk()
 canvas = Canvas(animation, width=width, height=height)
 canvas.pack()
 
-with open('GreenLine.csv', 'w') as csvFile:
+with open('GreenLineStops.csv', 'w') as csvFile:
     writer = csv.writer(csvFile)
     writer.writerows(original_stops)
 
