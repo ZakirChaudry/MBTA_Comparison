@@ -1,59 +1,59 @@
-1001,3907,Boston College,South Street
-1222,3787,South Street,Chestnut Hill Avenue
-1320,4850,Cleveland Circle,Englewood Avenue
-1352,3656,Chestnut Hill Avenue,Chiswick Road
-1483,3526,Chiswick Road,Sutherland Road
-1542,4729,Englewood Avenue,Dean Road
-1613,3396,Sutherland Road,Washington Street
-1680,4591,Dean Road,Tappan Street
-1686,5777,Riverside,Woodland
-1743,3265,Washington Street,Warren Street
-1818,4453,Tappan Street,Washington Square
-1874,3134,Warren Street,Allston Street
-1907,5659,Woodland,Waban
-1956,4315,Washington Square,Fairbanks Street
-2004,3004,Allston Street,Griggs Street
-2046,5521,Waban,Eliot
-2094,4177,Fairbanks Street,Brandon Hall
-2138,2873,Griggs Street,Harvard Avenue
-2184,5383,Eliot,Newton Highlands
-2232,4039,Brandon Hall,Summit Avenue
-2323,5245,Newton Highlands,Newton Centre
-2371,2799,Harvard Avenue,Packards Corner
-2372,3901,Summit Avenue,Coolidge Corner
-2465,5103,Newton Centre,Chestnut Hill
-2511,3764,Coolidge Corner,St. Paul Street (C)
-2603,2873,Packards Corner,Babcock Street
-2604,4965,Chestnut Hill,Reservoir
-2625,3646,St. Paul Street (C),Kent Street
-2739,3009,Babcock Street,Pleasant Street
-2743,4827,Reservoir,Beaconsfield
-2855,3515,Kent Street,Hawes Street
-2877,3147,Pleasant Street,St. Paul Street (B)
-2880,4690,Beaconsfield,Brookline Hills
-2999,3268,St. Paul Street (B),Boston University West
-3018,4552,Brookline Hills,Brookline Village
-3085,3646,Hawes Street,St. Mary's Street
-3137,3407,Boston University West,Boston University Central
-3159,4413,Brookline Village,Longwood
-3203,3765,St. Mary's Street,Kenmore
-3235,5697,Heath Street,Back of the Hill
-3258,3526,Boston University Central,Boston University East
-3297,4274,Longwood,Fenway
-3343,5549,Back of the Hill,Riverway
-3396,3664,Boston University East,Blandford Street
-3438,4134,Fenway,Kenmore
-3465,5428,Riverway,Mission Park
-3516,3786,Blandford Street,Kenmore
-3580,5313,Mission Park,Fenwood Road
-3698,5195,Fenwood Road,Brigham Circle
-3759,3930,Kenmore,Hynes Convention Center
-3821,5072,Brigham Circle,Longwood Medical Area
-3936,4957,Longwood Medical Area,Museum of Fine Arts
-4054,4839,Museum of Fine Arts,Northeastern University
-4140,3904,Hynes Convention Center,Copley
-4172,4722,Northeastern University,Symphony
-4268,4593,Symphony,Prudential
-4282,4314,Prudential,Copley
-4525,3904,Copley,Arlington
-4907,3904,Arlington,Copley
+1001,3907,Boston College,South Street,B
+1222,3787,South Street,Chestnut Hill Avenue,B
+1320,4850,Cleveland Circle,Englewood Avenue,C
+1352,3656,Chestnut Hill Avenue,Chiswick Road,B
+1483,3526,Chiswick Road,Sutherland Road,B
+1542,4729,Englewood Avenue,Dean Road,C
+1613,3396,Sutherland Road,Washington Street,B
+1680,4591,Dean Road,Tappan Street,C
+1686,5777,Riverside,Woodland,D
+1743,3265,Washington Street,Warren Street,B
+1818,4453,Tappan Street,Washington Square,C
+1874,3134,Warren Street,Allston Street,B
+1907,5659,Woodland,Waban,D
+1956,4315,Washington Square,Fairbanks Street,C
+2004,3004,Allston Street,Griggs Street,B
+2046,5521,Waban,Eliot,D
+2094,4177,Fairbanks Street,Brandon Hall,C
+2138,2873,Griggs Street,Harvard Avenue,B
+2184,5383,Eliot,Newton Highlands,D
+2232,4039,Brandon Hall,Summit Avenue,C
+2323,5245,Newton Highlands,Newton Centre,D
+2371,2799,Harvard Avenue,Packards Corner,B
+2372,3901,Summit Avenue,Coolidge Corner,C
+2465,5103,Newton Centre,Chestnut Hill,D
+2511,3764,Coolidge Corner,St. Paul Street (C),C
+2603,2873,Packards Corner,Babcock Street,B
+2604,4965,Chestnut Hill,Reservoir,D
+2625,3646,St. Paul Street (C),Kent Street,C
+2739,3009,Babcock Street,Pleasant Street,B
+2743,4827,Reservoir,Beaconsfield,D
+2855,3515,Kent Street,Hawes Street,C
+2877,3147,Pleasant Street,St. Paul Street (B),B
+2880,4690,Beaconsfield,Brookline Hills,D
+2999,3268,St. Paul Street (B),Boston University West,B
+3018,4552,Brookline Hills,Brookline Village,D
+3085,3646,Hawes Street,St. Mary's Street,C
+3137,3407,Boston University West,Boston University Central,B
+3159,4413,Brookline Village,Longwood,D
+3203,3765,St. Mary's Street,Kenmore,C
+3235,5697,Heath Street,Back of the Hill,E
+3258,3526,Boston University Central,Boston University East,B
+3297,4274,Longwood,Fenway,D
+3343,5549,Back of the Hill,Riverway,E
+3396,3664,Boston University East,Blandford Street,B
+3438,4134,Fenway,Kenmore,D
+3465,5428,Riverway,Mission Park,E
+3516,3786,Blandford Street,Kenmore,B
+3580,5313,Mission Park,Fenwood Road,E
+3698,5195,Fenwood Road,Brigham Circle,E
+3759,3930,Kenmore,Hynes Convention Center,B;C;D
+3821,5072,Brigham Circle,Longwood Medical Area,E
+3936,4957,Longwood Medical Area,Museum of Fine Arts,E
+4054,4839,Museum of Fine Arts,Northeastern University,E
+4140,3904,Hynes Convention Center,Copley,B;C;D
+4172,4722,Northeastern University,Symphony,E
+4268,4593,Symphony,Prudential,E
+4282,4314,Prudential,Copley,E
+4525,3904,Copley,Arlington,B;C;D;E
+4907,3904,Arlington,Copley,B;C;D;E
