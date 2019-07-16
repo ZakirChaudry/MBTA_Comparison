@@ -49,8 +49,19 @@ if __name__ == '__main__':
         showlegend=False,
         hoverinfo='text',
         mode="markers+lines",
+        line=dict(
+            color='green',
+            width=15,
+            shape='spline',
+            smoothing=1.3
+        ),
         marker=dict(
-            color='green'
+            color='white',
+            size=15,
+            line=dict(
+                color='green',
+                width=5
+            )
         )
     )
 
@@ -61,35 +72,109 @@ if __name__ == '__main__':
         showlegend=False,
         hoverinfo='text',
         mode="markers+lines",
+        line=dict(
+            color='green',
+            width=15,
+            shape='spline',
+            smoothing=1.3
+        ),
         marker=dict(
-            color='green'
+            color='white',
+            size=15,
+            line=dict(
+                color='green',
+                width=5
+            )
         )
     )
 
     d_line = plotly.graph_objs.Scatter(
         x=stops['D']['x'],
         y=stops['D']['y'],
-        text=stops['D']['name'][:len(stops['D']['name']) - 2],
+        text=stops['D']['name'][1:len(stops['D']['name']) - 2],
         showlegend=False,
         hoverinfo='text',
         mode="markers+lines",
+        line=dict(
+            color='green',
+            width=15,
+            shape='spline',
+            smoothing=1.3
+        ),
         marker=dict(
-            color='green'
+            color='white',
+            size=15,
+            line=dict(
+                color='green',
+                width=5
+            )
         )
     )
 
     e_line = plotly.graph_objs.Scatter(
         x=stops['E']['x'],
         y=stops['E']['y'],
-        text=stops['E']['name'],
+        text=stops['E']['name'][1:],
         showlegend=False,
         hoverinfo='text',
         mode="markers+lines",
+        line=dict(
+            color='green',
+            width=15,
+            shape='spline',
+            smoothing=1.3
+        ),
         marker=dict(
-            color='green'
+            color='white',
+            size=15,
+            line=dict(
+                color='green',
+                width=5
+            )
         )
     )
 
-    data = [b_line, c_line, d_line, e_line]
+    end_lines = plotly.graph_objs.Scatter(
+        x=[stops['B']['x'][0], stops['C']['x'][0], stops['D']['x'][0],
+           stops['E']['x'][0]],
+        y=[stops['B']['y'][0], stops['C']['y'][0], stops['D']['y'][0],
+           stops['E']['y'][0]],
+        # text=['Boston College', 'Cleveland Circle', 'Riverside',
+        #       'Heath Street'],
+        showlegend=False,
+        hoverinfo='text',
+        textposition='bottom center',
+        mode='markers',
+        marker=dict(
+            color='white',
+            size=20,
+            line=dict(
+                color='green',
+                width=5
+            )
+        )
 
-    plotly.plotly.iplot(data, filename='basic-scatter')
+    )
+
+    layout = plotly.graph_objs.Layout(
+        xaxis=dict(
+            autorange=True,
+            showgrid=False,
+            zeroline=False,
+            showline=False,
+            ticks='',
+            showticklabels=False
+        ),
+        yaxis=dict(
+            autorange=True,
+            showgrid=False,
+            zeroline=False,
+            showline=False,
+            ticks='',
+            showticklabels=False
+        )
+    )
+
+    data = [c_line, b_line, d_line, e_line, end_lines]
+    fig = plotly.graph_objs.Figure(data=data, layout=layout)
+    plotly.plotly.iplot(fig, filename='basic-scatter')
