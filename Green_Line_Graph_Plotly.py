@@ -91,7 +91,7 @@ if __name__ == '__main__':
     d_line = plotly.graph_objs.Scatter(
         x=stops['D']['x'],
         y=stops['D']['y'],
-        text=stops['D']['name'][1:len(stops['D']['name']) - 2],
+        text=stops['D']['name'][:len(stops['D']['name']) - 2],
         showlegend=False,
         hoverinfo='text',
         mode="markers+lines",
@@ -114,7 +114,7 @@ if __name__ == '__main__':
     e_line = plotly.graph_objs.Scatter(
         x=stops['E']['x'],
         y=stops['E']['y'],
-        text=stops['E']['name'][1:],
+        text=stops['E']['name'],
         showlegend=False,
         hoverinfo='text',
         mode="markers+lines",
